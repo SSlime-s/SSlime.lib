@@ -11,7 +11,7 @@ class BinaryIndexedTree:
         return
     
     def get(self,idx):
-        isx += 1
+        idx += 1
         res = 0
         while idx > 0:
             res = res + self.s[idx]
